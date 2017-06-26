@@ -151,6 +151,10 @@
       <Project>{dd448b37-ba3f-4544-9754-5406e8094723}</Project>
       <Name>BizHawk.Client.EmuHawk</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BizHawk.Client.WinformsCustom\BizHawk.Client.WinformsCustom.csproj">
+      <Project>{9ed561ac-e927-45a1-8142-daf75eb094c7}</Project>
+      <Name>BizHawk.Client.WinformsCustom</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BizHawk.Common\BizHawk.Common.csproj">
       <Project>{866f8d13-0678-4ff9-80a4-a3993fd4d8a3}</Project>
       <Name>BizHawk.Common</Name>
