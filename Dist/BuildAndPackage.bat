@@ -44,6 +44,7 @@ del %NAME%
 rem Remove things we can't allow the user's junky files to pollute the dist with. We'll export fresh copies from git
 rmdir /s /q temp\lua
 rmdir /s /q temp\firmware
+rmdir /s /q temp\tools
 
 rmdir /s /q gitsucks
 git --git-dir ../.git archive --format zip --output lua.zip HEAD Assets/Lua
