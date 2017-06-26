@@ -49,7 +49,7 @@
 			this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.StopOnFrameCheckbox = new System.Windows.Forms.CheckBox();
 			this.StopOnFrameTextBox = new BizHawk.Client.EmuHawk.WatchValueBox();
-			this.MovieView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.MovieView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -379,7 +379,7 @@
 		private System.Windows.Forms.Button Cancel;
 		private System.Windows.Forms.Button OK;
 		private System.Windows.Forms.Button BrowseMovies;
-		private VirtualListView MovieView;
+		private BizHawk.Client.WinformsCustom.VirtualListView MovieView;
 		private System.Windows.Forms.ColumnHeader columnHeader1;
 		private System.Windows.Forms.ColumnHeader columnHeader2;
 		private System.Windows.Forms.ColumnHeader columnHeader3;

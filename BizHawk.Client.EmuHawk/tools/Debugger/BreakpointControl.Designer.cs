@@ -36,7 +36,7 @@
 			this.RemoveBreakpointButton = new System.Windows.Forms.Button();
 			this.DuplicateBreakpointButton = new System.Windows.Forms.Button();
 			this.EditBreakpointButton = new System.Windows.Forms.Button();
-			this.BreakpointView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.BreakpointView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -184,7 +184,7 @@
 
 		#endregion
 
-		private VirtualListView BreakpointView;
+		private BizHawk.Client.WinformsCustom.VirtualListView BreakpointView;
 		public System.Windows.Forms.ColumnHeader columnHeader1;
 		private System.Windows.Forms.ColumnHeader columnHeader2;
 		private System.Windows.Forms.Button AddBreakpointButton;

@@ -34,7 +34,7 @@
 			this.buttonCopy = new System.Windows.Forms.Button();
 			this.buttonCopyAll = new System.Windows.Forms.Button();
 			this.AddToGameDbBtn = new System.Windows.Forms.Button();
-			this.virtualListView1 = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.virtualListView1 = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.tableLayoutPanel1.SuspendLayout();
 			this.SuspendLayout();
@@ -134,7 +134,7 @@
 			this.virtualListView1.UseCompatibleStateImageBehavior = false;
 			this.virtualListView1.View = System.Windows.Forms.View.Details;
 			this.virtualListView1.VirtualMode = true;
-			this.virtualListView1.QueryItemText += new BizHawk.Client.EmuHawk.QueryItemTextHandler(this.virtualListView1_QueryItemText);
+			this.virtualListView1.QueryItemText += new BizHawk.Client.WinformsCustom.QueryItemTextHandler(this.virtualListView1_QueryItemText);
 			this.virtualListView1.ClientSizeChanged += new System.EventHandler(this.virtualListView1_ClientSizeChanged);
 			this.virtualListView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.virtualListView1_KeyDown);
 			// 
@@ -163,7 +163,7 @@
 		private System.Windows.Forms.Button btnClose;
 		private System.Windows.Forms.Button btnClear;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-		private VirtualListView virtualListView1;
+		private BizHawk.Client.WinformsCustom.VirtualListView virtualListView1;
 		private System.Windows.Forms.ColumnHeader columnHeader1;
 		private System.Windows.Forms.Button buttonCopy;
 		private System.Windows.Forms.Button buttonCopyAll;

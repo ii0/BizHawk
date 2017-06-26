@@ -34,7 +34,7 @@
 			this.FilterBox = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.ToWikiMarkupButton = new System.Windows.Forms.Button();
-			this.FunctionView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.FunctionView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.LibraryReturn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.LibraryHead = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.LibraryName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -161,7 +161,7 @@
 
 		private System.Windows.Forms.Button OK;
 		private System.DirectoryServices.DirectoryEntry directoryEntry1;
-		private VirtualListView FunctionView;
+		private BizHawk.Client.WinformsCustom.VirtualListView FunctionView;
 		private System.Windows.Forms.ColumnHeader LibraryHead;
 		private System.Windows.Forms.ColumnHeader LibraryReturn;
 		private System.Windows.Forms.ColumnHeader LibraryName;

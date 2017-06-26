@@ -38,7 +38,7 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.InfoLabel = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.RamPatternOverrideBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.RamPatternOverrideBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.label4 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			this.BoardPropertiesGroupBox.SuspendLayout();
@@ -209,7 +209,7 @@
 		internal System.Windows.Forms.GroupBox BoardPropertiesGroupBox;
 		private System.Windows.Forms.Label InfoLabel;
 		private System.Windows.Forms.Label label3;
-		private HexTextBox RamPatternOverrideBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox RamPatternOverrideBox;
 		private System.Windows.Forms.Label label4;
 	}
 }

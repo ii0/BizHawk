@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using BizHawk.Emulation.Common;
 using BizHawk.Common.NumberExtensions;
 using BizHawk.Client.Common;
+using BizHawk.Client.WinformsCustom;
 
 namespace BizHawk.Client.EmuHawk
 {

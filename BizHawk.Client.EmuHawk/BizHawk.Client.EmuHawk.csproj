@@ -510,82 +510,6 @@
     <Compile Include="CoreFeatureAnalysis.Designer.cs">
       <DependentUpon>CoreFeatureAnalysis.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomControls\ExceptionBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ExceptionBox.designer.cs">
-      <DependentUpon>ExceptionBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\FolderBrowserDialogEx.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\GDIRenderer.cs" />
-    <Compile Include="CustomControls\HexTextBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\HexView.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\InputConfigBase.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomControls\InputRoll.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\InputRoll.Drawing.cs">
-      <DependentUpon>InputRoll.cs</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\MenuButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\MiscControls.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\MsgBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomControls\MsgBox.designer.cs">
-      <DependentUpon>MsgBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\PrereqsAlert.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomControls\PrereqsAlert.Designer.cs">
-      <DependentUpon>PrereqsAlert.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\QuickProgressPopup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomControls\QuickProgressPopup.Designer.cs">
-      <DependentUpon>QuickProgressPopup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\RepeatButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\TransparentTrackbar.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ReadonlyCheckbox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\SmartTextBoxControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\TasListView.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\TextDebugView.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ToolStripEx.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ViewportPanel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CustomControls\VirtualListView.cs" />
-    <Compile Include="CustomControls\Win32.cs" />
     <Compile Include="DisplayManager\DisplayManager.cs" />
     <Compile Include="DisplayManager\DisplaySurface.cs" />
     <Compile Include="DisplayManager\FilterManager.cs" />
@@ -1391,24 +1315,6 @@
     <EmbeddedResource Include="CoreFeatureAnalysis.resx">
       <DependentUpon>CoreFeatureAnalysis.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ExceptionBox.resx">
-      <DependentUpon>ExceptionBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\InputConfigBase.resx">
-      <DependentUpon>InputConfigBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\MsgBox.resx">
-      <DependentUpon>MsgBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\PrereqsAlert.resx">
-      <DependentUpon>PrereqsAlert.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\QuickProgressPopup.resx">
-      <DependentUpon>QuickProgressPopup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\TasListView.resx">
-      <DependentUpon>TasListView.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1661,6 +1567,10 @@
     <ProjectReference Include="..\BizHawk.Client.Common\BizHawk.Client.Common.csproj">
       <Project>{24A0AA3C-B25F-4197-B23D-476D6462DBA0}</Project>
       <Name>BizHawk.Client.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BizHawk.Client.WinformsCustom\BizHawk.Client.WinformsCustom.csproj">
+      <Project>{9ed561ac-e927-45a1-8142-daf75eb094c7}</Project>
+      <Name>BizHawk.Client.WinformsCustom</Name>
     </ProjectReference>
     <ProjectReference Include="..\BizHawk.Common\BizHawk.Common.csproj">
       <Project>{866F8D13-0678-4FF9-80A4-A3993FD4D8A3}</Project>
@@ -2148,6 +2058,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="config\Saturn\" />
+    <Folder Include="CustomControls\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

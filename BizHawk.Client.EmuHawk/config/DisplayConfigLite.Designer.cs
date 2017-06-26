@@ -97,8 +97,8 @@
 			this.cbMenuWindowed = new System.Windows.Forms.CheckBox();
 			this.cbCaptionWindowed = new System.Windows.Forms.CheckBox();
 			this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-			this.tbScanlineIntensity = new BizHawk.Client.EmuHawk.TransparentTrackBar();
-			this.trackbarFrameSizeWindowed = new BizHawk.Client.EmuHawk.TransparentTrackBar();
+			this.tbScanlineIntensity = new BizHawk.Client.WinformsCustom.TransparentTrackBar();
+			this.trackbarFrameSizeWindowed = new BizHawk.Client.WinformsCustom.TransparentTrackBar();
 			this.btnDefaults = new System.Windows.Forms.Button();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
 			this.groupBox1.SuspendLayout();
@@ -944,7 +944,7 @@
 		private System.Windows.Forms.RadioButton rbNone;
 		private System.Windows.Forms.RadioButton rbScanlines;
 		private System.Windows.Forms.RadioButton rbHq2x;
-		private BizHawk.Client.EmuHawk.TransparentTrackBar tbScanlineIntensity;
+		private BizHawk.Client.WinformsCustom.TransparentTrackBar tbScanlineIntensity;
 		private System.Windows.Forms.CheckBox checkLetterbox;
 		private System.Windows.Forms.CheckBox checkPadInteger;
 		private System.Windows.Forms.GroupBox grpFinalFilter;
@@ -980,7 +980,7 @@
 		private System.Windows.Forms.TabPage tabPage1;
 		private System.Windows.Forms.CheckBox cbStatusBarWindowed;
 		private System.Windows.Forms.Label label9;
-		private BizHawk.Client.EmuHawk.TransparentTrackBar trackbarFrameSizeWindowed;
+		private BizHawk.Client.WinformsCustom.TransparentTrackBar trackbarFrameSizeWindowed;
 		private System.Windows.Forms.CheckBox cbMenuWindowed;
 		private System.Windows.Forms.CheckBox cbCaptionWindowed;
 		private System.Windows.Forms.GroupBox groupBox4;

@@ -51,7 +51,7 @@
 			this.rbUDLRForbid = new System.Windows.Forms.RadioButton();
 			this.rbUDLRPriority = new System.Windows.Forms.RadioButton();
 			this.rbUDLRAllow = new System.Windows.Forms.RadioButton();
-			this.btnMisc = new BizHawk.Client.EmuHawk.MenuButton();
+			this.btnMisc = new BizHawk.Client.WinformsCustom.MenuButton();
 			this.tabControl1.SuspendLayout();
 			this.tableLayoutPanel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -325,7 +325,7 @@
 		private System.Windows.Forms.TabPage AnalogControlsTab;
 		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 		private System.Windows.Forms.ToolTip toolTip1;
-		private MenuButton btnMisc;
+		private BizHawk.Client.WinformsCustom.MenuButton btnMisc;
 				private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
 				private System.Windows.Forms.ToolStripMenuItem loadDefaultsToolStripMenuItem;
 				private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem;

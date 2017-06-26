@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using BizHawk.Emulation.Common;
 using BizHawk.Emulation.Common.IEmulatorExtensions;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Client.Common;
 using BizHawk.Client.EmuHawk.WinFormExtensions;
 using System.Drawing;

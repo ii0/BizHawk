@@ -155,7 +155,7 @@ namespace BizHawk.Client.EmuHawk
 			this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
 			this.EnableTooltipsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.TasView = new BizHawk.Client.EmuHawk.InputRoll();
+			this.TasView = new BizHawk.Client.WinformsCustom.InputRoll();
 			this.TasStatusStrip = new StatusStripEx();
 			this.MessageStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
 			this.SavingProgressBar = new System.Windows.Forms.ToolStripProgressBar();
@@ -1249,12 +1249,12 @@ namespace BizHawk.Client.EmuHawk
 			this.TasView.Size = new System.Drawing.Size(289, 528);
 			this.TasView.SuspendHotkeys = false;
 			this.TasView.TabIndex = 1;
-			this.TasView.ColumnClick += new BizHawk.Client.EmuHawk.InputRoll.ColumnClickEventHandler(this.TasView_ColumnClick);
-			this.TasView.ColumnRightClick += new BizHawk.Client.EmuHawk.InputRoll.ColumnClickEventHandler(this.TasView_ColumnRightClick);
+			this.TasView.ColumnClick += new BizHawk.Client.WinformsCustom.InputRoll.ColumnClickEventHandler(this.TasView_ColumnClick);
+			this.TasView.ColumnRightClick += new BizHawk.Client.WinformsCustom.InputRoll.ColumnClickEventHandler(this.TasView_ColumnRightClick);
 			this.TasView.SelectedIndexChanged += new System.EventHandler(this.TasView_SelectedIndexChanged);
-			this.TasView.RightMouseScrolled += new BizHawk.Client.EmuHawk.InputRoll.RightMouseScrollEventHandler(this.TasView_MouseWheel);
-			this.TasView.ColumnReordered += new BizHawk.Client.EmuHawk.InputRoll.ColumnReorderedEventHandler(this.TasView_ColumnReordered);
-			this.TasView.CellDropped += new BizHawk.Client.EmuHawk.InputRoll.CellDroppedEvent(this.TasView_CellDropped);
+			this.TasView.RightMouseScrolled += new BizHawk.Client.WinformsCustom.InputRoll.RightMouseScrollEventHandler(this.TasView_MouseWheel);
+			this.TasView.ColumnReordered += new BizHawk.Client.WinformsCustom.InputRoll.ColumnReorderedEventHandler(this.TasView_ColumnReordered);
+			this.TasView.CellDropped += new BizHawk.Client.WinformsCustom.InputRoll.CellDroppedEvent(this.TasView_CellDropped);
 			this.TasView.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TasView_KeyDown);
 			this.TasView.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TasView_MouseDoubleClick);
 			this.TasView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TasView_MouseDown);
@@ -1656,7 +1656,7 @@ namespace BizHawk.Client.EmuHawk
 		private System.Windows.Forms.ToolStripMenuItem ExitMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem EditSubMenu;
 		private System.Windows.Forms.ToolStripMenuItem ConfigSubMenu;
-		private InputRoll TasView;
+		private BizHawk.Client.WinformsCustom.InputRoll TasView;
 		private System.Windows.Forms.ToolStripMenuItem RecentSubMenu;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;

@@ -34,9 +34,9 @@
 			this.TurboSeekCheckbox = new System.Windows.Forms.CheckBox();
 			this.FollowCursorCheckbox = new System.Windows.Forms.CheckBox();
 			this.NextMarkerButton = new System.Windows.Forms.Button();
-			this.FrameAdvanceButton = new BizHawk.Client.EmuHawk.RepeatButton();
+			this.FrameAdvanceButton = new BizHawk.Client.WinformsCustom.RepeatButton();
 			this.PauseButton = new System.Windows.Forms.Button();
-			this.RewindButton = new BizHawk.Client.EmuHawk.RepeatButton();
+			this.RewindButton = new BizHawk.Client.WinformsCustom.RepeatButton();
 			this.PreviousMarkerButton = new System.Windows.Forms.Button();
 			this.PlaybackGroupBox.SuspendLayout();
 			this.SuspendLayout();
@@ -180,9 +180,9 @@
 
 		private System.Windows.Forms.GroupBox PlaybackGroupBox;
 		private System.Windows.Forms.Button NextMarkerButton;
-		private RepeatButton FrameAdvanceButton;
+		private BizHawk.Client.WinformsCustom.RepeatButton FrameAdvanceButton;
 		private System.Windows.Forms.Button PauseButton;
-		private RepeatButton RewindButton;
+		private BizHawk.Client.WinformsCustom.RepeatButton RewindButton;
 		private System.Windows.Forms.Button PreviousMarkerButton;
 		private System.Windows.Forms.CheckBox AutoRestoreCheckbox;
 		private System.Windows.Forms.CheckBox TurboSeekCheckbox;

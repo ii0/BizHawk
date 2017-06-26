@@ -31,7 +31,7 @@
 			this.HexMenu = new System.Windows.Forms.MenuStrip();
 			this.FileSubMenu = new System.Windows.Forms.ToolStripMenuItem();
 			this.ExitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.HexViewControl = new BizHawk.Client.EmuHawk.HexView();
+			this.HexViewControl = new BizHawk.Client.WinformsCustom.HexView();
 			this.HexMenu.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -97,6 +97,6 @@
 		private System.Windows.Forms.MenuStrip HexMenu;
 		private System.Windows.Forms.ToolStripMenuItem FileSubMenu;
 		private System.Windows.Forms.ToolStripMenuItem ExitMenuItem;
-		private HexView HexViewControl;
+		private BizHawk.Client.WinformsCustom.HexView HexViewControl;
 	}
 }

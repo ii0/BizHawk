@@ -32,8 +32,8 @@
 			this.GGCodeMaskBox = new System.Windows.Forms.MaskedTextBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.ValueBox = new BizHawk.Client.EmuHawk.HexTextBox();
-			this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.ValueBox = new BizHawk.Client.WinformsCustom.HexTextBox();
+			this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.addcheatbt = new System.Windows.Forms.Button();
 			this.ButtonPanel = new System.Windows.Forms.Panel();
 			this.BF = new System.Windows.Forms.Button();
@@ -55,7 +55,7 @@
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
-			this.CompareBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.CompareBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.ClearButton = new System.Windows.Forms.Button();
@@ -475,8 +475,8 @@
 		private System.Windows.Forms.GroupBox GameGenieCodeBox;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label1;
-        private HexTextBox ValueBox;
-        private HexTextBox AddressBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox ValueBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
         private System.Windows.Forms.Button addcheatbt;
         private System.Windows.Forms.Panel ButtonPanel;
         private System.Windows.Forms.Button B6;
@@ -505,6 +505,6 @@
 		private System.Windows.Forms.TextBox cheatname;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label5;
-		private HexTextBox CompareBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox CompareBox;
     }
 }

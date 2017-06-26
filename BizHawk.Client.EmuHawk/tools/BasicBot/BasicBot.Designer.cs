@@ -85,7 +85,7 @@
 			this.MainBestRadio = new System.Windows.Forms.RadioButton();
 			this.MainOperator = new System.Windows.Forms.ComboBox();
 			this.label9 = new System.Windows.Forms.Label();
-			this.MaximizeAddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.MaximizeAddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.maximizeLabeltext = new System.Windows.Forms.Label();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.TieBreak1Numeric = new System.Windows.Forms.NumericUpDown();
@@ -93,7 +93,7 @@
 			this.Tiebreak1Operator = new System.Windows.Forms.ComboBox();
 			this.TieBreak1BestRadio = new System.Windows.Forms.RadioButton();
 			this.label5 = new System.Windows.Forms.Label();
-			this.TieBreaker1Box = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.TieBreaker1Box = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.label10 = new System.Windows.Forms.Label();
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.TieBreak2Numeric = new System.Windows.Forms.NumericUpDown();
@@ -102,11 +102,11 @@
 			this.TieBreak2BestRadio = new System.Windows.Forms.RadioButton();
 			this.label11 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
-			this.TieBreaker2Box = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.TieBreaker2Box = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.panel6 = new System.Windows.Forms.Panel();
 			this.label12 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
-			this.TieBreaker3Box = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.TieBreaker3Box = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.TieBreak3Numeric = new System.Windows.Forms.NumericUpDown();
 			this.TieBreak3ValueRadio = new System.Windows.Forms.RadioButton();
 			this.TieBreak3BestRadio = new System.Windows.Forms.RadioButton();
@@ -1193,8 +1193,8 @@
 		private System.Windows.Forms.ToolStripMenuItem OptionsSubMenu;
 		private System.Windows.Forms.GroupBox GoalGroupBox;
 		private System.Windows.Forms.Label label6;
-		private HexTextBox TieBreaker1Box;
-		private HexTextBox TieBreaker2Box;
+		private BizHawk.Client.WinformsCustom.HexTextBox TieBreaker1Box;
+		private BizHawk.Client.WinformsCustom.HexTextBox TieBreaker2Box;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.NumericUpDown FrameLengthNumeric;
@@ -1242,7 +1242,7 @@
 		private System.Windows.Forms.ComboBox Tiebreak3Operator;
 		private System.Windows.Forms.Label label12;
 		private System.Windows.Forms.Label label7;
-		private HexTextBox TieBreaker3Box;
+		private BizHawk.Client.WinformsCustom.HexTextBox TieBreaker3Box;
 		private System.Windows.Forms.NumericUpDown TieBreak3Numeric;
 		private System.Windows.Forms.RadioButton TieBreak3ValueRadio;
 		private System.Windows.Forms.RadioButton TieBreak3BestRadio;
@@ -1260,7 +1260,7 @@
 		private System.Windows.Forms.RadioButton MainBestRadio;
 		private System.Windows.Forms.ComboBox MainOperator;
 		private System.Windows.Forms.Label label9;
-		private HexTextBox MaximizeAddressBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox MaximizeAddressBox;
 		private System.Windows.Forms.Label maximizeLabeltext;
 	}
 }

@@ -29,6 +29,7 @@ using System.Drawing;
 using System.Reflection;
 using System.Windows.Forms;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Common.NumberExtensions;
 using BizHawk.Client.Common;
 using BizHawk.Emulation.Cores.Nintendo.SNES;

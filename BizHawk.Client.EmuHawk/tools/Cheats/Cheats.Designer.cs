@@ -30,7 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cheats));
-			this.CheatListView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.CheatListView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.CheatName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.Address = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.Value = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -692,7 +692,7 @@
 
 		#endregion
 
-		private VirtualListView CheatListView;
+		private BizHawk.Client.WinformsCustom.VirtualListView CheatListView;
 		private System.Windows.Forms.ColumnHeader CheatName;
 		private System.Windows.Forms.ColumnHeader Address;
 		private System.Windows.Forms.ColumnHeader Value;

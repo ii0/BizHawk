@@ -1,4 +1,6 @@
-﻿namespace BizHawk.Client.EmuHawk
+﻿using BizHawk.Client.WinformsCustom;
+
+namespace BizHawk.Client.EmuHawk
 {
 	partial class RamWatch
 	{
@@ -108,7 +110,7 @@
 			this.FloatingWindowMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
 			this.RestoreWindowSizeMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.WatchListView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.WatchListView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.AddressColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.ValueColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.PrevColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));

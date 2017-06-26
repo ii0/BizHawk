@@ -46,7 +46,7 @@
 			this.DisassemblerBox = new System.Windows.Forms.GroupBox();
 			this.ToPCBtn = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
-			this.DisassemblerView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.DisassemblerView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.Address = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.Instruction = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.DisassemblerContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -56,7 +56,7 @@
 			this.StepOverBtn = new System.Windows.Forms.Button();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
 			this.SeekToBtn = new System.Windows.Forms.Button();
-			this.SeekToBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.SeekToBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.CancelSeekBtn = new System.Windows.Forms.Button();
 			this.RunBtn = new System.Windows.Forms.Button();
 			this.menuStrip1.SuspendLayout();
@@ -411,7 +411,7 @@
 		private System.Windows.Forms.GroupBox BreakpointsGroupBox;
 		private BreakpointControl BreakPointControl1;
 		private System.Windows.Forms.GroupBox DisassemblerBox;
-		private VirtualListView DisassemblerView;
+		private BizHawk.Client.WinformsCustom.VirtualListView DisassemblerView;
 		private System.Windows.Forms.ColumnHeader Address;
 		private System.Windows.Forms.ColumnHeader Instruction;
 		private System.Windows.Forms.Label label1;
@@ -424,7 +424,7 @@
 		private System.Windows.Forms.ToolStripMenuItem StepOutMenuItem;
 		private System.Windows.Forms.ToolTip toolTip1;
 		private System.Windows.Forms.Button SeekToBtn;
-		private HexTextBox SeekToBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox SeekToBox;
 		private System.Windows.Forms.Button CancelSeekBtn;
 		private System.Windows.Forms.Button ToPCBtn;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;

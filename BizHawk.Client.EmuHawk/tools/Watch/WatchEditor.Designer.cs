@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+            this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
             this.NotesBox = new System.Windows.Forms.TextBox();
             this.OK = new System.Windows.Forms.Button();
             this.Cancel = new System.Windows.Forms.Button();
@@ -214,7 +214,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private HexTextBox AddressBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
 		private System.Windows.Forms.TextBox NotesBox;
         private System.Windows.Forms.Button OK;
         private System.Windows.Forms.Button Cancel;

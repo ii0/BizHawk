@@ -36,7 +36,7 @@
 			this.AddWithTextBranchButton = new System.Windows.Forms.Button();
 			this.AddBranchButton = new System.Windows.Forms.Button();
 			this.LoadBranchButton = new System.Windows.Forms.Button();
-			this.BranchView = new BizHawk.Client.EmuHawk.InputRoll();
+			this.BranchView = new BizHawk.Client.WinformsCustom.InputRoll();
 			this.BranchesContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.AddBranchContextMenu = new System.Windows.Forms.ToolStripMenuItem();
 			this.AddBranchWithTextContextMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -172,8 +172,8 @@
 			this.BranchView.Size = new System.Drawing.Size(186, 224);
 			this.BranchView.SuspendHotkeys = false;
 			this.BranchView.TabIndex = 0;
-			this.BranchView.PointedCellChanged += new BizHawk.Client.EmuHawk.InputRoll.CellChangeEventHandler(this.BranchView_PointedCellChanged);
-			this.BranchView.CellDropped += new BizHawk.Client.EmuHawk.InputRoll.CellDroppedEvent(this.BranchView_CellDropped);
+			this.BranchView.PointedCellChanged += new BizHawk.Client.WinformsCustom.InputRoll.CellChangeEventHandler(this.BranchView_PointedCellChanged);
+			this.BranchView.CellDropped += new BizHawk.Client.WinformsCustom.InputRoll.CellDroppedEvent(this.BranchView_CellDropped);
 			this.BranchView.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.BranchView_MouseDoubleClick);
 			this.BranchView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BranchView_MouseDown);
 			this.BranchView.MouseLeave += new System.EventHandler(this.BranchView_MouseLeave);
@@ -281,7 +281,7 @@
 		#endregion
 
 		private System.Windows.Forms.GroupBox BookmarksBranchesGroupBox;
-		private InputRoll BranchView;
+		private BizHawk.Client.WinformsCustom.InputRoll BranchView;
 		private System.Windows.Forms.ContextMenuStrip BranchesContextMenu;
 		private System.Windows.Forms.ToolStripMenuItem AddBranchContextMenu;
 		private System.Windows.Forms.ToolStripMenuItem RemoveBranchContextMenuItem;

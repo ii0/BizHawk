@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace BizHawk.Client.EmuHawk.CustomControls
+namespace BizHawk.Client.WinformsCustom
 {
 	public partial class PrereqsAlert : Form
 	{

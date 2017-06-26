@@ -33,8 +33,8 @@
 			this.AddCheatButton = new System.Windows.Forms.Button();
 			this.GameGenieCodeBox = new System.Windows.Forms.GroupBox();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.ValueBox = new BizHawk.Client.EmuHawk.HexTextBox();
-			this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.ValueBox = new BizHawk.Client.WinformsCustom.HexTextBox();
+			this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
@@ -253,8 +253,8 @@
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button ClearButton;
-		private HexTextBox ValueBox;
-		private HexTextBox AddressBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox ValueBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
 		private System.Windows.Forms.GroupBox groupBox2;
 		private System.Windows.Forms.TextBox cheatname;
     }

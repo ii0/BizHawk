@@ -6,6 +6,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.ComponentModel;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Emulation.Common;
 using BizHawk.Emulation.Common.IEmulatorExtensions;
 using BizHawk.Emulation.Cores.Nintendo.SNES9X;
@@ -303,7 +304,7 @@ namespace BizHawk.Client.EmuHawk
 			// Start Scenario 0: snes9x needs a nag (copied from RecordMovieMenuItem_Click())
 			if (Emulator is Snes9x)
 			{
-				var box = new CustomControls.MsgBox(
+				var box = new MsgBox(
 					"While the Snes9x core is faster, it is not nearly as accurate as bsnes. \nIt is recommended that you switch to the bsnes core for movie recording\nSwitch to bsnes?",
 					"Accuracy Warning",
 					MessageBoxIcon.Warning);

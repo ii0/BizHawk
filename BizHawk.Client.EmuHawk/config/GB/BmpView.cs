@@ -6,6 +6,7 @@ using System.IO;
 using System.Drawing;
 using System.Windows.Forms;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Client.Common;
 using BizHawk.Client.EmuHawk.WinFormExtensions;
 

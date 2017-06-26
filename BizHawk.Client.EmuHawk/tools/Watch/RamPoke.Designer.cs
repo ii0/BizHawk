@@ -39,7 +39,7 @@ namespace BizHawk.Client.EmuHawk
 			this.DisplayTypeLabel = new System.Windows.Forms.Label();
 			this.SizeLabel = new System.Windows.Forms.Label();
 			this.BigEndianLabel = new System.Windows.Forms.Label();
-			this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
@@ -242,7 +242,7 @@ namespace BizHawk.Client.EmuHawk
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private HexTextBox AddressBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
         private System.Windows.Forms.Button OK;
         private System.Windows.Forms.Button Cancel;
         private System.Windows.Forms.Label OutputLabel;

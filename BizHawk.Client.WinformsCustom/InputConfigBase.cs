@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace BizHawk.Client.EmuHawk
+namespace BizHawk.Client.WinformsCustom
 {
 	public class InputConfigBase : Form
 	{

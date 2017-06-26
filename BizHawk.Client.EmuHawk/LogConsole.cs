@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 
 using BizHawk.Common;
 using BizHawk.Client.Common;
+using BizHawk.Client.WinformsCustom;
 
 #pragma warning disable 162
 

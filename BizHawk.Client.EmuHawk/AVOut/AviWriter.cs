@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 using BizHawk.Client.Common;
 using BizHawk.Emulation.Common;
+using BizHawk.Client.WinformsCustom;
 
 // some helpful p/invoke from http://www.codeproject.com/KB/audio-video/Motion_Detection.aspx?msg=1142967
 namespace BizHawk.Client.EmuHawk

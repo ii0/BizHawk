@@ -6,7 +6,7 @@ using System.Drawing.Imaging;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace BizHawk.Client.EmuHawk
+namespace BizHawk.Client.WinformsCustom
 {
 	/// <summary>
 	/// A programmatic PictureBox, really, which will paint itself using the last bitmap that was provided

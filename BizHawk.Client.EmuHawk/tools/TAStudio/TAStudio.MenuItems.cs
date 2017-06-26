@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Client.Common;
 using BizHawk.Client.Common.MovieConversionExtensions;
 using BizHawk.Client.EmuHawk.ToolExtensions;

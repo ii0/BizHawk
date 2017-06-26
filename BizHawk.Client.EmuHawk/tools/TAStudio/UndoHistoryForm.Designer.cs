@@ -40,7 +40,7 @@
 			this.AutoScrollCheck = new System.Windows.Forms.CheckBox();
 			this.MaxStepsNum = new System.Windows.Forms.NumericUpDown();
 			this.label1 = new System.Windows.Forms.Label();
-			this.HistoryView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.HistoryView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.RightClickMenu.SuspendLayout();
@@ -225,7 +225,7 @@
 
 		private System.Windows.Forms.Button ClearButton;
 		private System.Windows.Forms.Button UndoButton;
-		private VirtualListView HistoryView;
+		private BizHawk.Client.WinformsCustom.VirtualListView HistoryView;
 		private System.Windows.Forms.ColumnHeader columnHeader1;
 		private System.Windows.Forms.ColumnHeader columnHeader2;
 		private System.Windows.Forms.Button RedoButton;

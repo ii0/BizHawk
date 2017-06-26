@@ -11,6 +11,7 @@ using Microsoft.VisualBasic.ApplicationServices;
 
 using BizHawk.Common;
 using BizHawk.Client.Common;
+using BizHawk.Client.WinformsCustom;
 
 namespace BizHawk.Client.EmuHawk
 {
@@ -44,7 +45,7 @@ namespace BizHawk.Client.EmuHawk
 				sw.WriteLine("[{0}] Visual C++ 2010 SP1 Runtime", (vc2010 == IntPtr.Zero || vc2010p == IntPtr.Zero) ? "FAIL" : " OK ");
 				sw.WriteLine("[{0}] Visual C++ 2015 Runtime", (vc2015 == IntPtr.Zero) ? "FAIL" : " OK ");
 				var str = sw.ToString();
-				var box = new BizHawk.Client.EmuHawk.CustomControls.PrereqsAlert(!fail);
+				var box = new BizHawk.Client.WinformsCustom.PrereqsAlert(!fail);
 				box.textBox1.Text = str;
 				box.ShowDialog();
 				if (!fail) { }

@@ -13,6 +13,7 @@ using BizHawk.Common;
 using BizHawk.Common.BufferExtensions;
 using BizHawk.Common.IOExtensions;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Client.Common;
 using BizHawk.Bizware.BizwareGL;
 

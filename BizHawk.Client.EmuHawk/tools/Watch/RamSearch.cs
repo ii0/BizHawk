@@ -15,6 +15,7 @@ using BizHawk.Common.NumberExtensions;
 using BizHawk.Emulation.Common;
 using BizHawk.Emulation.Common.IEmulatorExtensions;
 
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Client.Common;
 using BizHawk.Client.EmuHawk.WinFormExtensions;
 using BizHawk.Client.EmuHawk.ToolExtensions;

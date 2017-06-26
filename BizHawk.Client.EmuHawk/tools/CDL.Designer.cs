@@ -52,7 +52,7 @@
 			this.tsbViewStyle = new System.Windows.Forms.ToolStripComboBox();
 			this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
 			this.tsbExportText = new System.Windows.Forms.ToolStripButton();
-			this.lvCDL = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.lvCDL = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.colAddress = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.colDomain = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.colPct = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -306,7 +306,7 @@
 			this.lvCDL.UseCustomBackground = true;
 			this.lvCDL.View = System.Windows.Forms.View.Details;
 			this.lvCDL.VirtualMode = true;
-			this.lvCDL.QueryItemText += new BizHawk.Client.EmuHawk.QueryItemTextHandler(this.lvCDL_QueryItemText);
+			this.lvCDL.QueryItemText += new BizHawk.Client.WinformsCustom.QueryItemTextHandler(this.lvCDL_QueryItemText);
 			// 
 			// colAddress
 			// 
@@ -412,7 +412,7 @@
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
 		private System.Windows.Forms.ToolStripButton tsbViewUpdate;
 		private System.Windows.Forms.ToolStripComboBox tsbViewStyle;
-		private VirtualListView lvCDL;
+		private BizHawk.Client.WinformsCustom.VirtualListView lvCDL;
 		private System.Windows.Forms.ColumnHeader colAddress;
 		private System.Windows.Forms.ColumnHeader colDomain;
 		private System.Windows.Forms.ColumnHeader colPct;

@@ -5,10 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-using BizHawk.Client.Common;
-using BizHawk.Client.EmuHawk.CustomControls;
-
-namespace BizHawk.Client.EmuHawk
+namespace BizHawk.Client.WinformsCustom
 {
 	public class HexView : Control
 	{

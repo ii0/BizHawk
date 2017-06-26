@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using SlimDX.XInput;
 
+using BizHawk.Client.WinformsCustom;
+
 #pragma warning disable 169
 #pragma warning disable 414
 

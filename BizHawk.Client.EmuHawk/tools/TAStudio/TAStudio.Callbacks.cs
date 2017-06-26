@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
 
+using BizHawk.Client.WinformsCustom;
+
 namespace BizHawk.Client.EmuHawk
 {
 	public partial class TAStudio

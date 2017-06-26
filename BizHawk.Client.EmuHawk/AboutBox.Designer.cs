@@ -49,7 +49,7 @@
 			this.label6 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.pictureBox5 = new BizHawk.Client.EmuHawk.MyViewportPanel();
-			this.HR = new BizHawk.Client.EmuHawk.HorizontalLine();
+			this.HR = new BizHawk.Client.WinformsCustom.HorizontalLine();
 			((System.ComponentModel.ISupportInitialize)(this.mom2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.mom1)).BeginInit();
@@ -301,7 +301,7 @@
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.Label label3;
-		private HorizontalLine HR;
+		private BizHawk.Client.WinformsCustom.HorizontalLine HR;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.PictureBox mom2;
 		private System.Windows.Forms.Label label5;

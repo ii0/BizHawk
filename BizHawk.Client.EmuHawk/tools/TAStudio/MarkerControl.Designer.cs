@@ -43,7 +43,7 @@
 			this.RemoveMarkerButton = new System.Windows.Forms.Button();
 			this.ScrollToMarkerButton = new System.Windows.Forms.Button();
 			this.AddMarkerWithTextButton = new System.Windows.Forms.Button();
-			this.MarkerView = new BizHawk.Client.EmuHawk.InputRoll();
+			this.MarkerView = new BizHawk.Client.WinformsCustom.InputRoll();
 			this.MarkerContextMenu.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -230,7 +230,7 @@
 
 		#endregion
 
-		private InputRoll MarkerView;
+		private BizHawk.Client.WinformsCustom.InputRoll MarkerView;
 		private System.Windows.Forms.Button AddMarkerButton;
 		private System.Windows.Forms.Button RemoveMarkerButton;
 		private System.Windows.Forms.Button JumpToMarkerButton;

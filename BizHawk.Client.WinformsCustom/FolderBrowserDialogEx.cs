@@ -9,7 +9,7 @@ using System.Security.Permissions;
 //The license is assumed to be effectively public domain.
 //I saw a version of it with at least one bug fixed at https://github.com/slavat/MailSystem.NET/blob/master/Queuing%20System/ActiveQLibrary/CustomControl/FolderBrowser.cs
 
-namespace BizHawk.Client.EmuHawk
+namespace BizHawk.Client.WinformsCustom
 {
 
 	/// <summary>

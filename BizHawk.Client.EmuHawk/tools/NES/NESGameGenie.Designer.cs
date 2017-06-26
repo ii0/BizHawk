@@ -34,9 +34,9 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.CompareBox = new BizHawk.Client.EmuHawk.HexTextBox();
-			this.ValueBox = new BizHawk.Client.EmuHawk.HexTextBox();
-			this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.CompareBox = new BizHawk.Client.WinformsCustom.HexTextBox();
+			this.ValueBox = new BizHawk.Client.WinformsCustom.HexTextBox();
+			this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.AddCheat = new System.Windows.Forms.Button();
 			this.ButtonPanel = new System.Windows.Forms.Panel();
 			this.N = new System.Windows.Forms.Button();
@@ -469,9 +469,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private HexTextBox CompareBox;
-        private HexTextBox ValueBox;
-        private HexTextBox AddressBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox CompareBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox ValueBox;
+        private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
         private System.Windows.Forms.Button AddCheat;
         private System.Windows.Forms.Panel ButtonPanel;
         private System.Windows.Forms.Button L;

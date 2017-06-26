@@ -5,10 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-using BizHawk.Client.Common;
-using BizHawk.Client.EmuHawk.CustomControls;
-
-namespace BizHawk.Client.EmuHawk
+namespace BizHawk.Client.WinformsCustom
 {
 	// Row width depends on font size and padding
 	// Column width is specified in column headers
@@ -595,24 +592,27 @@ namespace BizHawk.Client.EmuHawk
 
 		public string UserSettingsSerialized()
 		{
-			var settings = ConfigService.SaveWithType(Settings);
-			return settings;
+			//TODO ADELIKAT - TINY THINGS TO FIX DESIGNER
+			//var settings = ConfigService.SaveWithType(Settings);
+			//return settings;
+			return null;
 		}
 
 		public void LoadSettingsSerialized(string settingsJson)
 		{
-			var settings = ConfigService.LoadWithType(settingsJson);
+			//TODO ADELIKAT - TINY THINGS TO FIX DESIGNER
+			//var settings = ConfigService.LoadWithType(settingsJson);
 
-			// TODO: don't silently fail, inform the user somehow
-			if (settings is InputRollSettings)
-			{
-				var rollSettings = settings as InputRollSettings;
-				_columns = rollSettings.Columns;
-				_columns.ChangedCallback = ColumnChangedCallback;
-				HorizontalOrientation = rollSettings.HorizontalOrientation;
-				LagFramesToHide = rollSettings.LagFramesToHide;
-				HideWasLagFrames = rollSettings.HideWasLagFrames;
-			}
+			//// TODO: don't silently fail, inform the user somehow
+			//if (settings is InputRollSettings)
+			//{
+			//	var rollSettings = settings as InputRollSettings;
+			//	_columns = rollSettings.Columns;
+			//	_columns.ChangedCallback = ColumnChangedCallback;
+			//	HorizontalOrientation = rollSettings.HorizontalOrientation;
+			//	LagFramesToHide = rollSettings.LagFramesToHide;
+			//	HideWasLagFrames = rollSettings.HideWasLagFrames;
+			//}
 		}
 
 		private InputRollSettings Settings => new InputRollSettings
@@ -1043,40 +1043,41 @@ namespace BizHawk.Client.EmuHawk
 		// TODO add query callback of whether to select the cell or not
 		protected override void OnMouseDown(MouseEventArgs e)
 		{
-			if (!GlobalWin.MainForm.EmulatorPaused && _currentX.HasValue)
-			{
-				// copypaste from OnMouseMove()
-				Cell newCell = CalculatePointedCell(_currentX.Value, _currentY.Value);
-				if (QueryFrameLag != null && newCell.RowIndex.HasValue)
-				{
-					newCell.RowIndex += CountLagFramesDisplay(newCell.RowIndex.Value);
-				}
+			//TODO ADELIKAT - TINY THINGS TO FIX DESIGNER
+			//if (!GlobalWin.MainForm.EmulatorPaused && _currentX.HasValue)
+			//{
+			//	// copypaste from OnMouseMove()
+			//	Cell newCell = CalculatePointedCell(_currentX.Value, _currentY.Value);
+			//	if (QueryFrameLag != null && newCell.RowIndex.HasValue)
+			//	{
+			//		newCell.RowIndex += CountLagFramesDisplay(newCell.RowIndex.Value);
+			//	}
 
-				newCell.RowIndex += FirstVisibleRow;
-				if (newCell.RowIndex < 0)
-				{
-					newCell.RowIndex = 0;
-				}
+			//	newCell.RowIndex += FirstVisibleRow;
+			//	if (newCell.RowIndex < 0)
+			//	{
+			//		newCell.RowIndex = 0;
+			//	}
 
-				if (!newCell.Equals(CurrentCell))
-				{
-					CellChanged(newCell);
+			//	if (!newCell.Equals(CurrentCell))
+			//	{
+			//		CellChanged(newCell);
 
-					if (IsHoveringOnColumnCell ||
-						(WasHoveringOnColumnCell && !IsHoveringOnColumnCell))
-					{
-						Refresh();
-					}
-					else if (_columnDown != null)
-					{
-						Refresh();
-					}
-				}
-				else if (_columnDown != null)
-				{
-					Refresh();
-				}
-			}
+			//		if (IsHoveringOnColumnCell ||
+			//			(WasHoveringOnColumnCell && !IsHoveringOnColumnCell))
+			//		{
+			//			Refresh();
+			//		}
+			//		else if (_columnDown != null)
+			//		{
+			//			Refresh();
+			//		}
+			//	}
+			//	else if (_columnDown != null)
+			//	{
+			//		Refresh();
+			//	}
+			//}
 
 			if (e.Button == MouseButtons.Left)
 			{

@@ -3,6 +3,8 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
+using BizHawk.Client.WinformsCustom;
+
 namespace BizHawk.Client.EmuHawk
 {
 	public partial class HexFind : Form

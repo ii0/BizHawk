@@ -37,9 +37,9 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
 			this.CancelBtn = new System.Windows.Forms.Button();
-			this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.label2 = new System.Windows.Forms.Label();
-			this.AddressMaskBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.AddressMaskBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.BreakpointTypeGroupbox.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -183,11 +183,11 @@
 		private System.Windows.Forms.RadioButton ExecuteRadio;
 		private System.Windows.Forms.RadioButton WriteRadio;
 		private System.Windows.Forms.RadioButton ReadRadio;
-		private HexTextBox AddressBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.ToolTip toolTip1;
 		private System.Windows.Forms.Button CancelBtn;
 		private System.Windows.Forms.Label label2;
-		private HexTextBox AddressMaskBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox AddressMaskBox;
 	}
 }

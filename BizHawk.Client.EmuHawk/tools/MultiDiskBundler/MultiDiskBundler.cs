@@ -12,6 +12,7 @@ using System.Xml.Linq;
 using BizHawk.Emulation.Common;
 using BizHawk.Client.Common;
 using BizHawk.Client.EmuHawk.WinFormExtensions;
+using BizHawk.Client.WinformsCustom;
 
 namespace BizHawk.Client.EmuHawk
 {

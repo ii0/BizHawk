@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 
-namespace BizHawk.Client.EmuHawk
+namespace BizHawk.Client.WinformsCustom
 {
 	public unsafe static class Win32
 	{

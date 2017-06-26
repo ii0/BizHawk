@@ -1,4 +1,4 @@
-﻿namespace BizHawk.Client.EmuHawk.CustomControls
+﻿namespace BizHawk.Client.WinformsCustom
 {
 	partial class PrereqsAlert
 	{

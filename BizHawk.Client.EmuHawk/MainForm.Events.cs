@@ -19,7 +19,7 @@ using BizHawk.Emulation.Cores.Consoles.Nintendo.QuickNES;
 
 using BizHawk.Client.Common;
 
-using BizHawk.Client.EmuHawk.CustomControls;
+using BizHawk.Client.WinformsCustom;
 using BizHawk.Client.EmuHawk.WinFormExtensions;
 using BizHawk.Client.EmuHawk.ToolExtensions;
 using BizHawk.Emulation.Cores.Computers.AppleII;

@@ -32,7 +32,7 @@
 			this.NameLabel = new System.Windows.Forms.Label();
 			this.AddressLabel = new System.Windows.Forms.Label();
 			this.AddressHexIndLabel = new System.Windows.Forms.Label();
-			this.AddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.AddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.ValueHexIndLabel = new System.Windows.Forms.Label();
 			this.ValueLabel = new System.Windows.Forms.Label();
 			this.CompareHexIndLabel = new System.Windows.Forms.Label();
@@ -319,7 +319,7 @@
 		private System.Windows.Forms.Label NameLabel;
 		private System.Windows.Forms.Label AddressLabel;
 		private System.Windows.Forms.Label AddressHexIndLabel;
-		private HexTextBox AddressBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox AddressBox;
 		private WatchValueBox ValueBox;
 		private System.Windows.Forms.Label ValueHexIndLabel;
 		private System.Windows.Forms.Label ValueLabel;

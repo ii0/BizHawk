@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace BizHawk.Client.EmuHawk.CustomControls
+namespace BizHawk.Client.WinformsCustom
 {
 	/// <summary>
 	/// Wrapper for GDI rendering functions

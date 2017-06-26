@@ -41,7 +41,7 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-			this.MiscButton = new BizHawk.Client.EmuHawk.MenuButton();
+			this.MiscButton = new BizHawk.Client.WinformsCustom.MenuButton();
 			this.clearBtnContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.clearAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.clearCurrentTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -249,7 +249,7 @@
 				private System.Windows.Forms.Label label2;
 				private System.Windows.Forms.Label label3;
 				private System.Windows.Forms.ToolTip toolTip1;
-				private MenuButton MiscButton;
+				private BizHawk.Client.WinformsCustom.MenuButton MiscButton;
 				private System.Windows.Forms.ContextMenuStrip clearBtnContextMenu;
 				private System.Windows.Forms.ToolStripMenuItem clearAllToolStripMenuItem;
 				private System.Windows.Forms.ToolStripMenuItem clearCurrentTabToolStripMenuItem;

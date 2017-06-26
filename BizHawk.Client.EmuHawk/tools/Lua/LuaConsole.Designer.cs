@@ -102,7 +102,7 @@
 			this.InsertSeparatorToolbarItem = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
 			this.EraseToolbarItem = new System.Windows.Forms.ToolStripButton();
-			this.LuaListView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.LuaListView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.Script = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.PathName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -891,7 +891,7 @@
 
 		#endregion
 
-		private VirtualListView LuaListView;
+		private BizHawk.Client.WinformsCustom.VirtualListView LuaListView;
 		private System.Windows.Forms.ColumnHeader PathName;
 		private MenuStripEx menuStrip1;
 		private System.Windows.Forms.ToolStripMenuItem FileSubMenu;

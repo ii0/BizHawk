@@ -32,7 +32,7 @@
 			System.Windows.Forms.ToolStripMenuItem SearchMenuItem;
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RamSearch));
 			this.TotalSearchLabel = new System.Windows.Forms.Label();
-			this.WatchListView = new BizHawk.Client.EmuHawk.VirtualListView();
+			this.WatchListView = new BizHawk.Client.WinformsCustom.VirtualListView();
 			this.AddressColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.ValueColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.PreviousColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -118,8 +118,8 @@
 			this.CompareToBox = new System.Windows.Forms.GroupBox();
 			this.DifferenceBox = new BizHawk.Client.EmuHawk.WatchValueBox();
 			this.DifferenceRadio = new System.Windows.Forms.RadioButton();
-			this.NumberOfChangesBox = new BizHawk.Client.EmuHawk.UnsignedIntegerBox();
-			this.SpecificAddressBox = new BizHawk.Client.EmuHawk.HexTextBox();
+			this.NumberOfChangesBox = new BizHawk.Client.WinformsCustom.UnsignedIntegerBox();
+			this.SpecificAddressBox = new BizHawk.Client.WinformsCustom.HexTextBox();
 			this.SpecificValueBox = new BizHawk.Client.EmuHawk.WatchValueBox();
 			this.NumberOfChangesRadio = new System.Windows.Forms.RadioButton();
 			this.SpecificAddressRadio = new System.Windows.Forms.RadioButton();
@@ -1422,7 +1422,7 @@
 		#endregion
 
 		private System.Windows.Forms.Label TotalSearchLabel;
-		VirtualListView WatchListView;
+		BizHawk.Client.WinformsCustom.VirtualListView WatchListView;
 		private System.Windows.Forms.ColumnHeader AddressColumn;
 		private System.Windows.Forms.ColumnHeader ValueColumn;
 		private System.Windows.Forms.ColumnHeader PreviousColumn;
@@ -1498,8 +1498,8 @@
 		private System.Windows.Forms.ToolStripMenuItem Previous_OriginalMenuItem;
 		private System.Windows.Forms.GroupBox CompareToBox;
 		private System.Windows.Forms.RadioButton DifferenceRadio;
-		private UnsignedIntegerBox NumberOfChangesBox;
-		private HexTextBox SpecificAddressBox;
+		private BizHawk.Client.WinformsCustom.UnsignedIntegerBox NumberOfChangesBox;
+		private BizHawk.Client.WinformsCustom.HexTextBox SpecificAddressBox;
 		private WatchValueBox SpecificValueBox;
 		private System.Windows.Forms.RadioButton NumberOfChangesRadio;
 		private System.Windows.Forms.RadioButton SpecificAddressRadio;
